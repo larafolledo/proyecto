@@ -216,12 +216,20 @@ footer {
     flex-direction: row;
     margin-top: 2rem;
 }
+@keyframes aparecer {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
 
 .header {
     background-color: #5a0808;
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: initial;
+}
+@keyframes aparecer {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
 }
 
 .cajaimg1 {
