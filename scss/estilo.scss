@@ -19,6 +19,10 @@ $colorRosita:rgb(255, 217, 185);
 	animation-duration: 2s;
 	animation-name: aparecer;
 	animation-iteration-count: initial;
+	@keyframes aparecer {
+		0% { opacity: 0;}
+		100% { opacity: 1;}
+	}
 }
 .cajaimg1 {
 	text-align: center;
@@ -28,6 +32,10 @@ $colorRosita:rgb(255, 217, 185);
 	animation-duration: 2s;
 	animation-name: aparecer;
 	animation-iteration-count: initial;
+	@keyframes aparecer {
+		0% { opacity: 0;}
+		100% { opacity: 1;}
+	}
 }
 h3 {
 	padding: 1rem;
