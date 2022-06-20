@@ -8,13 +8,13 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	list-style-type: none;
 	padding: 2%;
-	background-color: rgb(255, 217, 185);
+	background-color: $colorRosita1;
 	a {
 		text-decoration: none;
 		color: black;
 		font-weight: bold;
 		&:hover {
-			background-color: rgb(129, 34, 34);
+			background-color: $colorHover;
 			color: white;
 		}
 	}
